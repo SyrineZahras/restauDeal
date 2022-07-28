@@ -1,3 +1,4 @@
+
 const mongoose = require('mongoose');
 const express = require('express');
 var cors = require('cors');
@@ -7,8 +8,10 @@ const Data = require('./data');
 
 const API_PORT = 3001;
 const app = express();
-app.use(cors());
+app.use(express.json());
+const port = process.env.PORT || 5000;
 const router = express.Router();
+
 
 // this is our MongoDB database
 const dbRoute =
@@ -85,3 +88,8 @@ app.use('/api', router);
 
 // launch our backend into a port
 app.listen(API_PORT, () => console.log(`LISTENING ON PORT ${API_PORT}`));
+
+app.use(cors());
+app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.json());
+

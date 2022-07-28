@@ -1,7 +1,6 @@
 {
   "name": "restaudeal",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "concurrently \"cd backend && node server.js\" \"cd frontend && npm start\"",
@@ -11,6 +10,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "concurrently": "^7.3.0"
-  }
+    "axios": "^0.27.2",
+    "concurrently": "^7.3.0",
+    "react-scripts": "^5.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SyrineZahras/restauDeal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SyrineZahras/restauDeal/issues"
+  },
+  "homepage": "https://github.com/SyrineZahras/restauDeal#readme",
+  "description": ""
 }

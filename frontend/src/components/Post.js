@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PDF from './PDF';
+import './Post.css';
 
 class Post extends Component {
     state = {
@@ -46,6 +47,9 @@ class Post extends Component {
                                                 <div className="form-group">
                                                     <span className="col-md-1 col-md-offset-2 text-center"><i className="fa fa-user bigicon"></i></span>
                                                     <input onChange={this.onChange('num')} name="num" type="text" placeholder="Votre Numéro " className="form-control" />
+                                                </div>
+                                                <div class="qrbox">
+                                                <img src="./assets/images/qrCode.png" alt="qrCode" className="photo"/>
                                                 </div>
                                                 <div className="form-group">
                                                     <button type="button" onClick={this.sunmitPost} className="btn btn-primary btn-lg">Submit</button>

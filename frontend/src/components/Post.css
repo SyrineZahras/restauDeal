@@ -1,0 +1,10 @@
+.qrbox {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-row-gap: 10px;
+}
+
+.photo {
+    height: 200px;
+    width: 200px;
+  }

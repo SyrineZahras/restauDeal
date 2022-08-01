@@ -13,13 +13,10 @@ function Modal({ setOpenModal }) {
         </div>
 
     <Post />
-
-        <div className="footer">
           <button   onClick={() => { setOpenModal(false); }} id="cancelBtn" >  Cancel  </button>
           <div><div1>Important : Un seul code promo par email et numéro de téléphone est autorisé</div1></div>
         </div>
       </div>
-    </div>
   );
 }
 

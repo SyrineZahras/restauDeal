@@ -1,7 +1,7 @@
 import React from 'react';
 import Pdf from "react-to-pdf";
 import QRCode from "react-qr-code";
-
+import Random from './random';
 
 const ref = React.createRef();
 
@@ -13,9 +13,8 @@ const PDF = (props) => {
       <h1>RestauDeal</h1>
        Votre Email: <p>{props.email}</p>
        Votre Numéro: <p>{props.num}</p>
-       
+       <Random />
        Votre QR Code : <QRCode value={props.email} />
-       
       </div>
       <Pdf targetRef={ref} filename="post.pdf">
         {({ toPdf }) => <button onClick={toPdf}>Capture as PDF</button>}

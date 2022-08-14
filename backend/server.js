@@ -44,13 +44,14 @@ router.get('/getData', (req, res) => {
 
 // this is our update method
 // this method overwrites existing data in our database
+/*
 router.post('/updateData', (req, res) => {
   const { id, update } = req.body;
   Data.findByIdAndUpdate(id, update, (err) => {
     if (err) return res.json({ success: false, error: err });
     return res.json({ success: true });
   });
-});
+});*/
 
 // this is our delete method
 // this method removes existing data in our database
@@ -64,7 +65,7 @@ router.delete('/deleteData', (req, res) => {
 
 // this is our create methid
 // this method adds new data in our database
-router.post('/putData', (req, res) => {
+/*router.post('/putData', (req, res) => {
   let data = new Data();
 
   const { id, message } = req.body;
@@ -81,15 +82,10 @@ router.post('/putData', (req, res) => {
     if (err) return res.json({ success: false, error: err });
     return res.json({ success: true });
   });
-});
+}); */
 
 // append /api for our http requests
 app.use('/api', router);
 
 // launch our backend into a port
 app.listen(API_PORT, () => console.log(`LISTENING ON PORT ${API_PORT}`));
-
-app.use(cors());
-app.use(bodyParser.urlencoded({extended: true}));
-app.use(bodyParser.json());
-

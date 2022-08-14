@@ -27,7 +27,10 @@ function App() {
         <Reservation />
 
         <Location />
-
+<br></br>
+<br></br>
+<br></br>
+<br></br>
         <Contact />
 
 
@@ -39,7 +42,7 @@ function App() {
               <a class="social-icon" href="#"><i class="fab fa-instagram"></i></a></p>
           </div>
           <div class="col">
-            <p class="text-center">Copyright &copy; 2020</p>
+            <p class="text-center">Copyright &copy; 2022</p>
           </div>
           <div class="col">
             <p class="text-center">Powered by: <a href="#">with love</a></p>

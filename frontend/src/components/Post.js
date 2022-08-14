@@ -8,6 +8,7 @@ class Post extends Component {
         num:'',
         postSubmitted: false
     }
+    
 
     onChange = input => e => {
         this.setState({
@@ -26,6 +27,8 @@ class Post extends Component {
             });
         }
     }
+
+    
 
     render(){
         return(

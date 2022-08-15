@@ -1,6 +1,9 @@
 import React from 'react'
 import Modali, { useModali } from 'modali';
 import Post from "./components/Post";
+import Timer from './Timer';
+import TimerHobo from './TimerHobo';
+import TimerChicken from './TimerChicken';
 
 
 
@@ -38,6 +41,7 @@ function Menu() {
                   <button onClick={toggleFirstModal}> <i class="fas fa-gift"></i> 
                   {" "} Obtenez votre Code Promo
                   </button>
+               <div> <TimerChicken /> </div>  
                 </center>
                 <Modali.Modal {...firstModal}>
                   <Post />
@@ -66,6 +70,7 @@ function Menu() {
                   <button onClick={toggleSecondModal}> <i class="fas fa-gift"></i> 
                   {" "} Obtenez votre Code Promo
                   </button>
+               <div> <Timer /> </div>  
                 </center>
                 <Modali.Modal {...secondModal}>
                 <Post />
@@ -95,6 +100,7 @@ function Menu() {
                   <button onClick={toggleThirdModal}> <i class="fas fa-gift"></i> 
                   {" "} Obtenez votre Code Promo
                   </button>
+               <div> <TimerHobo /> </div>  
                 </center>
                 <Modali.Modal {...thirdModal}>
                 <Post />

@@ -22,10 +22,10 @@ function Navbar() {
                   <a class="nav-link" href="#Menu">Nos offres</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#Reservation">Reservation</a>
+                  <a class="nav-link" href="#Reservation">Près de moi</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#OurLocation">Près de moi</a>
+                  <a class="nav-link" href="#OurLocation">Loading</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#contact">Nous Contacter</a>

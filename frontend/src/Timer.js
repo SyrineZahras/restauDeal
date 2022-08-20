@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 function Timer() {
 
     const calculateTimeLeft = () => {
-        const difference = +new Date("2022-08-15T18:30:17+01:00") - +new Date();
+        const difference = +new Date("2022-08-20T18:30:17+01:00") - +new Date();
         let timeLeft = {};
     
         if (difference > 0) {

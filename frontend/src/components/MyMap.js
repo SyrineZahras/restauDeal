@@ -1,5 +1,6 @@
 import React from "react";
 import { MapContainer, TileLayer } from "react-leaflet";
+import LocationMarker from "./LocationMarker";
 
 function MyMap() {
   const position = [36.80, 10.18];
@@ -14,6 +15,7 @@ function MyMap() {
         attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
+    <LocationMarker />
     </MapContainer>
   );
 }

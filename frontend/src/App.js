@@ -4,7 +4,6 @@ import Navbar from './navbar'
 import Restaurant from './restaurant'
 import Menu from './menu'
 import Reservation from './reservation'
-import Location from './location'
 import Contact from './contact'
 
 function App() {
@@ -26,7 +25,6 @@ function App() {
 
         <Reservation />
 
-        <Location />
 <br></br>
 <br></br>
 <br></br>

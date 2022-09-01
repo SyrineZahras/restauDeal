@@ -1,15 +1,12 @@
-
 const mongoose = require('mongoose');
 const express = require('express');
 var cors = require('cors');
 const bodyParser = require('body-parser');
 const logger = require('morgan');
 const Data = require('./data');
-
 const API_PORT = 3001;
 const app = express();
-app.use(express.json());
-const port = process.env.PORT || 5000;
+app.use(cors());
 const router = express.Router();
 
 
@@ -44,14 +41,14 @@ router.get('/getData', (req, res) => {
 
 // this is our update method
 // this method overwrites existing data in our database
-/*
+
 router.post('/updateData', (req, res) => {
   const { id, update } = req.body;
   Data.findByIdAndUpdate(id, update, (err) => {
     if (err) return res.json({ success: false, error: err });
     return res.json({ success: true });
   });
-});*/
+});
 
 // this is our delete method
 // this method removes existing data in our database
@@ -65,10 +62,10 @@ router.delete('/deleteData', (req, res) => {
 
 // this is our create methid
 // this method adds new data in our database
-/*router.post('/putData', (req, res) => {
+router.post('/putData', (req, res) => {
   let data = new Data();
 
-  const { id, message } = req.body;
+  const { id, nom, lieu, message, promo } = req.body;
 
   if ((!id && id !== 0) || !message) {
     return res.json({
@@ -76,13 +73,16 @@ router.delete('/deleteData', (req, res) => {
       error: 'INVALID INPUTS',
     });
   }
+  data.nom = nom;
+  data.lieu = lieu;
   data.message = message;
+  data.promo = promo;
   data.id = id;
   data.save((err) => {
     if (err) return res.json({ success: false, error: err });
     return res.json({ success: true });
   });
-}); */
+}); 
 
 // append /api for our http requests
 app.use('/api', router);

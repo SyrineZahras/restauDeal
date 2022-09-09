@@ -57,7 +57,7 @@ function Menu() {
           <div class="card">
             <img class="card-img-top img-fluid " src="assets/images/fish-menu.jpg" />
             <div class="card-body">
-              <h5 class="card-title">~ La Spigola Goulette -10% ~</h5>
+              <h5 class="card-title">~ Via Mercato -10% ~</h5>
               <ul class="list-group list-group-flush">
                 <li class="list-group-item">Calamar Doree </li>
                 <li class="list-group-item">Spaghetti Fruit de Mer</li>

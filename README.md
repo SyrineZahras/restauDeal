@@ -1,36 +1,5 @@
 # 💕 RestauDeal
-<div id="top" align="center">
-  <img src="https://user-images.githubusercontent.com/78981558/155504905-3bd2d8db-64f5-413c-b7d2-d4e7842ddad8.png" width="250" height="250"/>
-  <div id="badges">
-
-   <a href="https://github.com/ahlem-phantom/AI-HealthCare-Assistant/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge"/>
-  </a>
-
-  <a href="https://github.com/ahlem-phantom/AI-HealthCare-Assistant/issues">
-    <img src="https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge"/>
-  </a>
-
-  <a href="https://github.com/ahlem-phantom/AI-HealthCare-Assistant/stargazers">
-    <img src="https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge"/>
-  </a>
-   <a href="https://github.com/ahlem-phantom/AI-HealthCare-Assistant/network/members">
-      <img src="https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge"/>
-    </a>
-  </div>
-<h3 align="center">AI-HealthCare-Assistant</h3>
   
-  <p align="center">
-This is the official AI-HealthCare-Assistant documentation <br/>
-  </p>
- <a href="https://www.youtube.com/watch?v=Kxqa83Us1m4&t=1s">
-    <img src="https://img.youtube.com/vi/Kxqa83Us1m4/0.jpg"/>
-  </a>
- </div>
-
-  
-  
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>

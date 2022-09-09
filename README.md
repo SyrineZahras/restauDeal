@@ -76,16 +76,6 @@ This web application centralizes the schedules and medical services in a single 
 7. **🛒 Paramedical e-shop:** using machine learning for patient's behavioral analysis prediction.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### 📐 Project Technical Architecture 
-
-<div align="center">
-  <h1>
-<img src="https://user-images.githubusercontent.com/78981558/155615523-4663648b-50a2-4e45-a67e-3685dd28206d.png" width="700" height="500">
-</h1>
-</div>
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 ### 🚀 Built With
 
 **RestauDeal** is built using MERN Stack technology. You may find below the list of the frameworks/libraries that we used to build our project :

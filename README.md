@@ -32,20 +32,10 @@
 
 <!-- ABOUT THE PROJECT -->
 ## 📃 About The Project
-<b>"RestauDeal"</b> is an AI healthcare assistant that uses AI and machine learning algorithms to improve patients' experience by providing them professional medical assistance. Patients will be able to find the nearest doctor to their location, ask about illness symptoms, and schedule an appointment with a doctor based on their availability. Immediate responses will be provided by a chatbot to redeem the needs of our patients using Artificial Intelligence techniques for decision making. Also, our solution offers a very unique concept with developing patient records using Blockchain. The assistant will create a medical record and store it in Blockchain to make them accessible to any of the patient's chosen doctors with granted permission. Thanks to the decentralized nature of Blockchain, patient records would be securely spread among a large number of servers, posing little risk to their sensitive information.<br>
-This web application centralizes the schedules and medical services in a single dashboard. This solution offers a real-time overview of the coverage of reports that facilitate the management of resources.<br>
+<b>"RestauDeal"</b> is a promo code management website.<br>
+We provide the user with a promo code and a QR Code of the restaurant of his choice, as well as a map where he can see the location of the restaurants near to his location.
 
- ### 📜 Project Main features
-1. **🤖 Symptoms Detection:** using Artificial Intelligence for specialist recommendation and illness detection.
-2. **📅 Appointment Scheduling:** based on the nearest doctor to your location or the first available appointment.
-3. **📘 Medical Records:** securely stored in the blockchain using smart contracts.
-4. **💬 Blogs and Forum:** using machine learning for patient satisfaction prediction.
-5. **📈 Real-time reports:** using machine learning to offer an overview of many aspects of the application.
-6. **🙋 Advanced authentication:** using facial recognition to match the identity of a doctor, Card ID data extraction, and machine learning for identity verification.
-7. **🛒 Paramedical e-shop:** using machine learning for patient's behavioral analysis prediction.
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-### 🚀 Built With
+ 
 
 **RestauDeal** is built using MERN Stack technology. You may find below the list of the frameworks/libraries that we used to build our project :
 <br/>
@@ -125,66 +115,8 @@ Use this space to show useful examples of how a project can be used. Additional 
 
 ![demo1](https://user-images.githubusercontent.com/78981558/177001216-8e8c9cc2-09cd-4c7a-9639-94ec384432cb.png)
 
-![demo24](https://user-images.githubusercontent.com/78981558/177001224-b804c0df-5db0-4d4c-b83e-de964c501b0b.png)
-
-![demo10](https://user-images.githubusercontent.com/78981558/177001237-8932f8c4-31b1-4939-b3f0-042713444cb1.png)
-
-![demo21](https://user-images.githubusercontent.com/78981558/177000911-0c4cb2ca-aff1-4416-be97-5b9173215c9a.png)
-
-![demo18](https://user-images.githubusercontent.com/78981558/177000917-86dba137-ba0f-4dfd-83c3-a18fd902be11.png)
-
-![demo12](https://user-images.githubusercontent.com/78981558/177000997-ecd9c0bc-e3ca-4d0b-bb75-2e55bde0f690.png)
-
-![demo13](https://user-images.githubusercontent.com/78981558/177001041-1dec9540-ec50-47e5-8c79-22dee3dece61.png)
-
-![demo14](https://user-images.githubusercontent.com/78981558/177001043-cb8110c3-f1a0-4e2a-b9cd-ef393cbf5ec4.png)
-
-![demo5](https://user-images.githubusercontent.com/78981558/177000927-0db3daef-a870-49e8-9413-9817a44b4f8a.png)
-
-![demo3](https://user-images.githubusercontent.com/78981558/177000941-82057aa0-5496-4b69-9aa1-a1c042395fe1.png)
-
-![demo4](https://user-images.githubusercontent.com/78981558/177001352-2aab27c9-e939-4782-b2d9-0181a8888d13.png)
 
 
-<!-- ROADMAP -->
-## 🚩 Roadmap
-
-See the [open issues](https://github.com/ahlem-phantom/AI-HealthCare-Assistant/issues) for a list of proposed features (and known issues).
-
- - [x] Phase 1 : Project Study, Requirement Analysis and Prototyping 
-	 - Problematic definition 
-	 - State of the art
-	 - Preliminary Feasibility Study
-	 - Solution & functional/technical requirements
-	 - Wireframes of the solution
-
-- [x] Phase 2 : Advanced Features Specification, Application Design & Realization
-	- Data Model
-	- Physical architecture and technical environments 
-	- Specification of the advanced features
-	- Advanced Feasibility Study (Cases studied problems and Results - development Back-end) 
-	- Development of static user interfaces (Front-end)-> depending on the project
-	- First NodeJS components (scenarios and case studies tests) 
-	- Static User Interfaces (Front-end)
-
-- [x] Phase 3.1 : Realization Of Advanced Features, Deployment And Tests
-  - Implementation of the solution (V1)
-  - Continuation Back-End development
-  - Collecting and using flow from external application(Phase 2 + Phase 3) 
-  - Consuming REST services by the front-end
-  - Development of final user interfaces (Front-end) 
-  - Exposing REST services by the back-end Node.js
-  - Integration
-  - Implemented Application V1
-
-- [x] Phase 3.2 : Realization Of Advanced Features, Deployment And Tests
-  - Finalization of final delivrable (V2)
-  - Final Integration/Deployment of the solution 
-  - Tests
-  - Implemented Application V2 
-  - Tests results
-  
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 

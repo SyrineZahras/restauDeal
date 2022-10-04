@@ -35,7 +35,9 @@
 <b>"RestauDeal"</b> is a promo code management website.<br>
 We provide the user with a promo code and a QR Code of the restaurant of his choice, as well as a map where he can see the location of the restaurants near to his location.
 
- 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### 🚀 Built With
 
 **RestauDeal** is built using MERN Stack technology. You may find below the list of the frameworks/libraries that we used to build our project :
 <br/>

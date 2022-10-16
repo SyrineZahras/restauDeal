@@ -106,22 +106,6 @@ _In order to install the app you need to follow the instructions below :_
 
 
 
-<!-- USAGE EXAMPLES -->
-## ⚡ Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-![demo1](https://user-images.githubusercontent.com/78981558/177001216-8e8c9cc2-09cd-4c7a-9639-94ec384432cb.png)
-
-
-
-
-
-
 <!-- CONTRIBUTING -->
 ## 😎 Contributing
 
